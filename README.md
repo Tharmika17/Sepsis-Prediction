@@ -4,7 +4,7 @@ This project presents an end-to-end pipeline for early sepsis prediction using s
 
 ---
 
-## 🔁 Project Pipeline
+## Project Pipeline
 
 1️. Synthetic dataset generation (Gaussian Copula)
 
@@ -14,9 +14,9 @@ This project presents an end-to-end pipeline for early sepsis prediction using s
 
 ---
 
-## 🧬 1. Synthetic Data Generation
+## 1. Synthetic Data Generation
 
-📓 Notebook: `Dataset_Creation.ipynb`
+Notebook: `Dataset_Creation.ipynb`
 
 * Source: MIMIC-III Demo ICU dataset
 * Method: Gaussian Copula
@@ -25,18 +25,18 @@ This project presents an end-to-end pipeline for early sepsis prediction using s
 
 ---
 
-## 🤖 2. Model Development, Evaluation and Explainability
+## 2. Model Development, Evaluation and Explainability
 
-📓 Notebook: `Sepsis_Prediction.ipynb`
+Notebook: `Sepsis_Prediction.ipynb`
 
-### 🧠 Models Implemented
+### Models Implemented
 
 * Logistic Regression - Baseline model
 * XGBoost - Ensemble/Boosting model
 * Long Short-Term Memory (LSTM) - Deep learning time-series model
 * Temporal Convolutional Network (TCN) - Deep learning temporal model
 
-### ⚙️ Key Components
+### Key Components
 
 * Data preprocessing and feature engineering on clinical time-series data
 * Sequential tensor preparation for deep learning (TCN)
@@ -47,7 +47,7 @@ This project presents an end-to-end pipeline for early sepsis prediction using s
 
 ---
 
-## 📊 3. Clinical Dashboard (Power BI)
+## 3. Clinical Dashboard (Power BI)
 Dashboard: `Sepsis_clinical dashboard.pdf`
 
 An interactive clinical decision-support dashboard for interpreting model outputs:
@@ -59,14 +59,14 @@ An interactive clinical decision-support dashboard for interpreting model output
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
  Python • Pandas • NumPy • Scikit-learn • Machine learning • Deep Learning • SHAP • Gaussian Copula • MIMIC-III Demo        
  • Synthetic time-series dataset • Power BI • Jupyter Notebook
 
 ---
 
-## 🌟 Key Contributions
+## Key Contributions
 
 * Synthetic ICU time-series dataset generation using Gaussian Copula
 * Time-series sepsis prediction using different ML models
@@ -75,7 +75,7 @@ An interactive clinical decision-support dashboard for interpreting model output
 
 ---
 
-## 🔒 Data & Ethics Note
+## Data & Ethics Note
 
 This repository does not contain raw MIMIC-III clinical data.
 The study uses synthetically generated time-series data for privacy-preserving research purposes only.
