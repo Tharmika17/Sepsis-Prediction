@@ -16,7 +16,7 @@ This project presents an end-to-end pipeline for early sepsis prediction using s
 
 ## 🧬 1. Synthetic Data Generation
 
-📓 Notebook: `Dataset_creation_240.ipynb`
+📓 Notebook: `Dataset_Creation.ipynb`
 
 * Source: MIMIC-III Demo ICU dataset
 * Method: Gaussian Copula
@@ -27,7 +27,7 @@ This project presents an end-to-end pipeline for early sepsis prediction using s
 
 ## 🤖 2. Model Development, Evaluation and Explainability
 
-📓 Notebook: `Sepsis_Prediction_Final_--240352204.ipynb`
+📓 Notebook: `Sepsis_Prediction.ipynb`
 
 ### 🧠 Models Implemented
 
@@ -48,6 +48,7 @@ This project presents an end-to-end pipeline for early sepsis prediction using s
 ---
 
 ## 📊 3. Clinical Dashboard (Power BI)
+Dashboard: `Sepsis_clinical dashboard.pdf`
 
 An interactive clinical decision-support dashboard for interpreting model outputs:
 
